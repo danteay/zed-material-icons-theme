@@ -1,0 +1,7 @@
+id = "pkl-icons"
+name = "Pkl Icons"
+description = "File icons for the Pkl configuration language, using the official Pkl logo."
+version = "0.1.0"
+schema_version = 1
+authors = ["Eduardo Aguilar <eduardo.aguilar@draftea.com>"]
+repository = "https://github.com/danteay/pkl-zed-icons"

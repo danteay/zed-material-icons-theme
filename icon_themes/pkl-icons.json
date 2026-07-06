@@ -1,0 +1,21 @@
+{
+  "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+  "name": "Pkl Icons",
+  "author": "Eduardo Aguilar",
+  "themes": [
+    {
+      "name": "Pkl Icons",
+      "appearance": "dark",
+      "file_stems": {
+        "PklProject": "pkl"
+      },
+      "file_suffixes": {
+        "pkl": "pkl",
+        "pcf": "pkl"
+      },
+      "file_icons": {
+        "pkl": { "path": "./icons/pkl.svg" }
+      }
+    }
+  ]
+}
