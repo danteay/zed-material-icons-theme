@@ -4,4 +4,4 @@ description = "Material Icon Theme file and folder icons for Zed, with the offic
 version = "0.2.0"
 schema_version = 1
 authors = ["Eduardo Aguilar <eduardo.aguilar@draftea.com>"]
-repository = "https://github.com/danteay/pkl-zed-icons"
+repository = "https://github.com/danteay/zed-material-icons-theme"

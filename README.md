@@ -1,4 +1,4 @@
-# pkl-zed-icons
+# zed-material-icons-theme
 
 An icon theme for the [Zed](https://zed.dev) editor that combines the
 [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
