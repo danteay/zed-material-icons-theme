@@ -7,8 +7,8 @@ Pkl files (`*.pkl`, `*.pcf`, `PklProject`, `PklProject.deps.json`).
 
 It ships two themes:
 
-- **Pkl Icons** — for dark UI themes
-- **Pkl Icons Light** — for light UI themes, with the Material light icon
+- **Material Icons** — for dark UI themes
+- **Material Icons Light** — for light UI themes, with the Material light icon
   variants
 
 Coverage includes ~1,400 file extensions, ~4,600 well-known file names, and
@@ -23,12 +23,12 @@ repository.
 
 ## Usage
 
-Install the `pkl-icons` extension, then select the icon theme with the
+Install the `material-icons` extension, then select the icon theme with the
 `icon theme selector: toggle` command or in your `settings.json`:
 
 ```json
 {
-  "icon_theme": "Pkl Icons"
+  "icon_theme": "Material Icons"
 }
 ```
 

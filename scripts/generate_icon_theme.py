@@ -5,7 +5,7 @@ Downloads the pinned version of https://www.npmjs.com/package/material-icon-them
 (the built distribution of material-extensions/vscode-material-icon-theme),
 converts its mappings to Zed's icon theme schema, and writes:
 
-  - icon_themes/pkl-icons.json  (dark + light themes)
+  - icon_themes/material-icons.json  (dark + light themes)
   - icons/material/*.svg        (only the SVGs actually referenced)
   - licenses/material-icon-theme.LICENSE
 
@@ -46,7 +46,7 @@ TARBALL_URL = (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-FAMILY_NAME = "Pkl Icons"
+FAMILY_NAME = "Material Icons"
 AUTHOR = "Eduardo Aguilar"
 SCHEMA = "https://zed.dev/schema/icon_themes/v0.3.0.json"
 
@@ -164,7 +164,7 @@ def main() -> None:
             "author": AUTHOR,
             "themes": [dark, light],
         }
-        theme_path = REPO_ROOT / "icon_themes" / "pkl-icons.json"
+        theme_path = REPO_ROOT / "icon_themes" / "material-icons.json"
         theme_path.write_text(json.dumps(family, indent=2) + "\n")
 
         icons_dir = REPO_ROOT / "icons" / "material"
