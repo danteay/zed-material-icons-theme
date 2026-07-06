@@ -1,9 +1,10 @@
 # zed-material-icons-theme
 
-An icon theme for the [Zed](https://zed.dev) editor that combines the
+A port of the VS Code
 [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
-file and folder icons with the official [Pkl](https://pkl-lang.org) logo on
-Pkl files (`*.pkl`, `*.pcf`, `PklProject`, `PklProject.deps.json`).
+for the [Zed](https://zed.dev) editor. It brings the same file and folder
+icons to Zed, and additionally overlays the official [Pkl](https://pkl-lang.org)
+logo on Pkl files (`*.pkl`, `*.pcf`, `PklProject`, `PklProject.deps.json`).
 
 It ships two themes:
 
@@ -23,7 +24,7 @@ repository.
 
 ## Usage
 
-Install the `material-icons` extension, then select the icon theme with the
+Install the `vsc-material-icons` extension, then select the icon theme with the
 `icon theme selector: toggle` command or in your `settings.json`:
 
 ```json
