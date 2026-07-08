@@ -117,6 +117,9 @@ def build_theme(data: dict, appearance: str) -> tuple[dict, set[str]]:
     file_stems["PklProject"] = "pkl"
     file_icons["pkl"] = {"path": "./icons/pkl.svg"}
 
+    # EJSON files are encrypted JSON; reuse the JSON icon (upstream has no ejson).
+    file_suffixes["ejson"] = "json"
+
     named_directory_icons = {
         name: {
             "collapsed": icon_path(folder_names[name]),
